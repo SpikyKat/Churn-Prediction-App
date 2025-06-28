@@ -1,0 +1,5 @@
+gender,SeniorCitizen,Partner,Dependents,tenure,PhoneService,MultipleLines,InternetService,OnlineSecurity,OnlineBackup,DeviceProtection,TechSupport,StreamingTV,StreamingMovies,Contract,PaperlessBilling,PaymentMethod,MonthlyCharges,TotalCharges
+Female,0,Yes,No,5,Yes,No,DSL,Yes,No,Yes,No,Yes,No,Month-to-month,Yes,Electronic check,70.35,350.75
+Male,1,No,No,42,Yes,Yes,Fiber optic,No,Yes,No,No,No,Yes,Two year,No,Mailed check,99.65,4200.1
+Female,0,Yes,Yes,2,No,No phone service,DSL,No,Yes,No,Yes,No,No,Month-to-month,Yes,Bank transfer (automatic),56.95,113.9
+Male,0,No,Yes,8,Yes,Yes,Fiber optic,Yes,No,Yes,Yes,Yes,Yes,One year,Yes,Credit card (automatic),89.1,712.5
