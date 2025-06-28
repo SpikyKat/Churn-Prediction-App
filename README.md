@@ -1,0 +1,109 @@
+# 🔁 Dynamic Customer Churn Prediction App
+
+A powerful, interactive Streamlit dashboard to predict customer churn using machine learning, explain predictions with SHAP values, and generate LLM-powered insights using LLaMA via Groq API.
+
+---
+
+## 🚀 Features
+
+- 📥 Upload your own labeled dataset to train models
+- 📤 Upload new data for churn prediction
+- 🧠 LLM-powered churn reasons using LLaMA3 (via Groq API)
+- 📊 Compare model performance: 
+  - XGBoost
+  - Random Forest
+  - Logistic Regression
+- 🔍 Filter results by feature (e.g. Geography, Contract Type)
+- 🎯 Visual KPIs (Total customers, churn %, avg probability)
+- 📉 Confusion Matrix & ROC Curve
+- 🧬 SHAP-based Explainability:
+  - Waterfall Plot
+  - Summary Bar Plot
+  - Beeswarm Plot
+  - Text Summary of Top Features
+- 📥 Download prediction results
+
+---
+
+## 🗂️ Folder Structure
+
+project-root/
+│
+├── data/ # CSV files (training + prediction)
+
+├── notebooks/ # Jupyter notebooks (optional analysis)
+
+├── streamlit_app/ # Main app script (app.py)
+
+├── .env # Groq API Key (DO NOT COMMIT!)
+
+├── .gitignore # Git ignored files
+
+├── requirements.txt # Dependencies
+
+└── README.md # This file
+
+## 🧪 Getting Started
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/churn-prediction-app.git
+cd churn-prediction-app
+```
+### 2️⃣Create .env File
+Create a file named .env in the root directory:
+```bash
+GROQ_API_KEY=your_groq_api_key_here
+```
+### 3️⃣ Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+### 4️⃣ Run the App
+```bash
+streamlit run streamlit_app/app.py
+```
+### 🔐 Environment Variables
+Variable	Description
+GROQ_API_KEY	Your API key from Groq
+
+### 📦 Requirements
+All dependencies are listed in requirements.txt.
+Major packages used:
+
+- streamlit
+
+- pandas, scikit-learn, xgboost
+
+- matplotlib, seaborn
+
+- shap
+
+- groq (for LLaMA3-powered insights)
+
+### 🧠 LLM-Powered Insights
+Using LLaMA 3 via the Groq API, the app analyzes SHAP feature importance and generates plain-language answers to:
+
+"Why are customers likely churning in this dataset?"
+
+These insights are shown in a dedicated section at the bottom of the dashboard.
+
+### 📸 Screenshots 
+
+
+
+### 📄 License
+MIT License - feel free to use, modify, and share.
+
+### ✨ Credits
+Built with ❤️ using:
+
+- Streamlit
+
+- SHAP
+
+- Groq API
+
+- scikit-learn
+
+- XGBoost
