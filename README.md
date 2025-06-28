@@ -90,7 +90,11 @@ These insights are shown in a dedicated section at the bottom of the dashboard.
 
 ### 📸 Screenshots 
 
-
+![image](https://github.com/user-attachments/assets/31bcbb03-c80a-440a-82e5-5e3d5e2e816d)
+![image](https://github.com/user-attachments/assets/3cd41f19-4285-4c0b-a90e-d54f1d399991)
+![image](https://github.com/user-attachments/assets/05e9ac11-238d-45fc-924c-8e06dd5ffe6d)
+![image](https://github.com/user-attachments/assets/21f54062-6e50-46e4-bcb1-561ac11f220f)
+![image](https://github.com/user-attachments/assets/bdb9a9c8-0f5c-4983-b9e5-4fe9c73026f1)
 
 ### 📄 License
 MIT License - feel free to use, modify, and share.
